@@ -5,6 +5,25 @@
         $languages = "Java, Html, Css, MySQL";
     */
 
+    function upperMenuName(): string
+    {
+        return "YourPort";
+    }
+
+    function list_value1(): string
+    {
+        return "Contact";
+    }
+
+    function list_value2(): string
+    {
+        return "About me";
+    }
+
+    function list_value3(): string
+    {
+        return "Github";
+    }
 
     /*
     * Enter your nickname or real name.
@@ -46,4 +65,14 @@
     function bg_color2(): string
     {
         return "white";
+    }
+
+    function delay(): string
+    {
+        return '-5s';
+    }
+
+    function duration(): string
+    {
+        return '13s';
     }

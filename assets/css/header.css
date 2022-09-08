@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.yp-header {
+    width: 100%;
+    height: 150px;
+    background: black;
+    position: sticky;
+}
+
+.yp-header h1 {
+    color: white;
+    font-family: "Fabrica";
+    transform: translate(10%,170%);
+}
+
+.yp-header ul {
+    font-family: "Fabrica";
+    font-size: 20px;
+    display: inline-flex;
+    transform: translate(-20%,140%);
+    float: right;
+    list-style: none;
+}
+
+.yp-header li {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.yp-header a {
+    cursor: pointer;
+    transition: color .3s;
+    color: white;
+}
+
+.yp-header a:hover {
+    transition: color .3s;
+    color: lightskyblue;
+}

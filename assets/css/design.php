@@ -9,10 +9,11 @@
     }
 
     html {
+        overflow-x: hidden;
         background-color: <?= bg_color1(); ?>;
         animation-name: background;
-        animation-delay: -12s;
-        animation-duration: 7s;
+        animation-delay: <?= delay() ?>;
+        animation-duration: <?= duration() ?>;
         animation-iteration-count: infinite;
     }
 

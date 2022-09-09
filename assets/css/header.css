@@ -33,11 +33,19 @@
 
 .yp-header a {
     cursor: pointer;
-    transition: color .3s;
+    text-shadow: white 0 0 10px;
+    transition: color, text-shadow .3s;
     color: white;
+
 }
 
 .yp-header a:hover {
-    transition: color .3s;
-    color: lightskyblue;
+    text-shadow: white 5px 0 1px;
+    transition: color, text-shadow .3s;
+    color: white;
+}
+
+.yp-header svg {
+    color: white;
+    transform: translate(-45%, 5%);
 }

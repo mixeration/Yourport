@@ -22,7 +22,8 @@ Only thing that you need is some path editors for change username & age parts...
 > [0.0.2] Added background color changer, can configurable duration and delay times
 > 
 > [0.0.3] Added Hello page and new settings values
->
+> 
+> [0.0.4] Added new settings values, boostrap icons
 
 ### Features
 
@@ -51,12 +52,9 @@ Only thing that you need is some path editors for change username & age parts...
 ### Settings.php
 
 ```php
+<?php
 
-    /*
-     * Header  (Upper menu) settings
-     */
-
-    function upperMenuName(): string 
+    function upperMenuName(): string
     {
         return "YourPort";
     }
@@ -86,6 +84,15 @@ Only thing that you need is some path editors for change username & age parts...
     }
 
     /*
+    * Enter your real name.
+    */
+
+    function name(): string
+    {
+        return "Hacı Mert Gökhan";
+    }
+
+    /*
     * Enter your age.
     */
 
@@ -111,6 +118,22 @@ Only thing that you need is some path editors for change username & age parts...
     {
         return "Hello, I'm Mixeration";
     }
+
+    /*
+     * Enter your description.
+     */
+
+    function description(): string
+    {
+        return "I'm a student and I'm learning programming.\nI'm 17 years old and I'm from Turkey.\nI like to learn new things.\nI like watching anime, reading scince and & philosophy books, playing with my cat and draw something surreal...
+
+        I am currently working on Php and JavaScript, One of my goals is to create a product that will help humanity.
+        I think the photograph taken by each person is a work of art for that person.";
+    }
+
+    /*
+     * Enter your development status.
+     */
 
     function devStatus(): string
     {
@@ -141,4 +164,5 @@ Only thing that you need is some path editors for change username & age parts...
     {
         return '13s';
     }
+
 ```

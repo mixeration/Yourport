@@ -78,9 +78,13 @@
     {
         return "I'm a student and I'm learning programming.\nI'm 17 years old and I'm from Turkey.\nI like to learn new things.\nI like watching anime, reading scince and & philosophy books, playing with my cat and draw something surreal...
 
-I am currently working on TypeScript and JavaScript, One of my goals is to create a product that will help humanity.
-I think the photograph taken by each person is a work of art for that person.";
+        I am currently working on TypeScript and JavaScript, One of my goals is to create a product that will help humanity.
+        I think the photograph taken by each person is a work of art for that person.";
     }
+
+    /*
+    * Enter your development status.
+    */
 
     function devStatus(): string
     {

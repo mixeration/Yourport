@@ -53,7 +53,21 @@
     }
 
     /*
-     * Background colors
+     * Hello
+     */
+
+    function hello(): string
+    {
+        return "Hello, I'm Mixeration";
+    }
+
+    function devStatus(): string
+    {
+        return "Beginner";
+    }
+
+    /*
+     * Background colors and animation values
      */
 
     function bg_color1(): string

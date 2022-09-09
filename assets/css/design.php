@@ -18,6 +18,39 @@
     }
 
     /*
+        @mixeration: Hello page
+     */
+
+    .hello {
+        position: sticky;
+        text-align: center;
+        font-family: "Fabrica", ui-serif;
+    }
+
+    .hello h1 {
+        font-family: "Fabrica", ui-serif;
+        color: <?= bg_color2(); ?>;
+        font-size: 28px;
+        animation-name: color;
+        animation-delay: <?= delay() ?>;
+        animation-duration: <?= duration() ?>;
+        animation-iteration-count: infinite;
+        transform: translateY(500%);
+    }
+
+    .hello p {
+        font-family: "Fabrica", ui-serif;
+        color: <?= bg_color2(); ?>;
+        animation-name: color;
+        font-size: 19px;
+        animation-delay: <?= delay() ?>;
+        animation-duration: <?= duration() ?>;
+        animation-iteration-count: infinite;
+        transform: translateY(800%);
+    }
+
+
+    /*
 
 
         Yourport : @keyframes Animations
@@ -42,4 +75,23 @@
             background: <?= bg_color1(); ?>;
         }
     }
+
+    @keyframes color {
+        0% {
+            color: <?= bg_color2(); ?>;
+        }
+        25% {
+            color: <?= bg_color1(); ?>;
+        }
+        50% {
+            color: <?= bg_color2(); ?>;
+        }
+        75% {
+            color: <?= bg_color1(); ?>;
+        }
+        100% {
+            color: <?= bg_color2(); ?>;
+        }
+    }
+
 </style>

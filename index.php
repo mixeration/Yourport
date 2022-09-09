@@ -27,6 +27,11 @@
 
 <body>
 
+    <div class="hello">
+        <h1><?= hello() ?></h1>
+        <p> <?= devStatus() . " " . languages() ?> Developer</p>
+    </div>
+
 </body>
 </html>
 
